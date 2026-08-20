@@ -25,7 +25,7 @@ function applyTheme(theme){
     themeBtn.setAttribute('aria-label', theme === 'light' ? '切换到深色模式' : '切换到浅色模式');
     themeBtn.title = theme === 'light' ? '切换到深色模式' : '切换到浅色模式';
   }
-  if(themeColor) themeColor.setAttribute('content', theme === 'light' ? '#eef9ff' : '#08090c');
+  if(themeColor) themeColor.setAttribute('content', theme === 'light' ? '#fff6f2' : '#090809');
 }
 
 // 默认完全跟随系统主题，不保存主题偏好，系统变更会实时同步。
